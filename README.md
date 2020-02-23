@@ -7,3 +7,5 @@ Just Learning AWS Cloud
     AWS
     Git and github
     SSH
+    HTML
+    CSS
