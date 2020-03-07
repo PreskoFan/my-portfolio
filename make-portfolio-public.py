@@ -13,7 +13,7 @@ def lambda_handler(event, context):
             print obj.key
             portfolio_bucket.Object(obj.key).Acl().put(ACL='public-read')
             user_parameters = event['CodePipeline.job']['data']['actionConfiguration']['configuration']['UserParameters']
-            logger.info(f'User parameters: {user_parameters}')
+            logger.info('User parameters: {user_parameters}')
             response = codepipeline.put_job_success_result(jobId=job_id)
             logger.debug(response)
             return {
@@ -26,7 +26,7 @@ def lambda_handler(event, context):
             jobId=job_id,
             failureDetails={
                 'type': 'JobFailed',
-                'message': f'{error.__class__.__name__}: {str(error)}'
+                'message': '{error.__class__.__name__}: {str(error)}'
             }
         )
         logger.debug(response)
