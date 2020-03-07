@@ -27,7 +27,7 @@ def lambda_handler(event, context):
             jobId=job_id,
             failureDetails={
                 'type': 'JobFailed',
-                'message': '{error.__class__.__name__}: {str(error)}'
+                'message': '{str(error)}'
             }
         )
         print(response)
