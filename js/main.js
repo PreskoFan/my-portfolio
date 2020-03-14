@@ -24,7 +24,7 @@ const myWork = [
         }
     },
     {
-        'title': "Work Example",
+        'title': "Work Cat",
         'href':'http://example.com',
         'desc':'Irure in amet in commodo elit enim velit voluptate. Nisi consectetur cillum minim ipsum exercitation commodo et sint aliqua. Eiusmod deserunt enim fugiat ullamco deserunt sint commodo ea in id laboris ex laboris. Ullamco culpa adipisicing tempor exercitation veniam cillum veniam. Ut excepteur tempor culpa dolor excepteur eu nostrud excepteur esse. Pariatur laboris dolor aliqua nulla enim cillum id fugiat amet sunt non ad nostrud pariatur. Tempor minim pariatur officia in culpa elit elit.',
         'image': {
